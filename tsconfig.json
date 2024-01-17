@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // "module": "CommonJS", // => works
+    // "module": "NodeNext", // => doesn't work
+    "module": "Node16", // => doesn't work
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "index.ts",
+  ],
+  "exclude": [
+    "node_modules/**/*",
+  ],
+}

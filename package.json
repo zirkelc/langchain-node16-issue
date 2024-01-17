@@ -1,0 +1,20 @@
+{
+  "name": "langchain-node16-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.15",
+    "@langchain/openai": "^0.0.12"
+  }
+}
